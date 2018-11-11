@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UFT-8">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Pavanam|Work+Sans:200"
+  rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+
+    <div id="question-list">
+
+    <div id="end-screen">
+      <canvas id="myCanvas"></canvas>
+      <div id="summary">
+        <h1><strong>Summary</strong><h1>
+      </div>
+    </div>
+
+    <div id="question">
+      <h1 class="color-theme" id="title"> Did you experience morning stiffness? </h1>
+      <form class="answers" id="form"  >
+        <input type="radio" name="ans" value="yes" class="radioBs" id="yes">
+        <label>Yes</label> <br>
+        <input type="radio" name="ans" value="no" class="radioBs" id="no">
+        <label>No</label>
+      </form>
+    </div>
+
+</div>
+
+    <br><br>
+
+    <button id="next" type="button" name="next">Next</button>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script type="text/javascript" src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
+
+
+
+    <script src="popup.js"></script>
+    <!-- <script src="index.js"></script> -->
+
+  </body>
+</html>

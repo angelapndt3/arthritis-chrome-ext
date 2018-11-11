@@ -1,0 +1,30 @@
+{
+  "name": "Arthur",
+  "version": "1.0",
+  "description": "Track Arthritis symptoms",
+  "permissions": [
+    "https://cdnis.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js",
+    "<all_urls>",
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/arthur_icon16.png",
+      "32": "images/arthur_icon32.png",
+      "48": "images/arthur_icon48.png",
+      "128": "images/arthur_icon128.png"
+    }
+  },
+  "options_page": "options.html",
+
+  "manifest_version": 2,
+
+  "content_security_policy": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js https://requirejs.org/docs/release/2.3.5/minified/require.js"
+}

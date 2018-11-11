@@ -1,0 +1,123 @@
+HTML {
+  height: 75%;
+  width: 500px;
+}
+
+button {
+  font: 13px/1 'Work Sans', sans-serif;
+  background-color:#be564e;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;
+display:inline-block;
+cursor:pointer;
+color:black;
+padding:10px 20px;
+  letter-spacing: 2px;
+text-decoration:none;
+  border: none;
+}
+
+button:hover {
+  background-color:#db8983;
+  color: black;
+  border: none;
+}
+
+button:active {
+  position:relative;
+  top:1px;
+}
+
+.color-theme {
+  color: #507b9b;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.radioBs {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     top:10px;
+     border-radius: 50px;
+     cursor: pointer;
+     margin-right: 7px;
+     outline: none;
+}
+
+.radioBs:checked::before {
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+
+.radioBs:hover {
+     background-color: #f7f7f7;
+}
+
+.radioBs:checked {
+     background-color: rgba(145,171,188,0.4)
+}
+
+label {
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+     color: #666;
+
+}
+
+#questions {
+  font: 13px/1 'Open Sans', sans-serif;
+}
+
+canvas {
+  margin-botton: 10px;
+}
+
+#summary {
+  margin: 10px;
+  color: #7FBBBD;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+<<<<<<< HEAD
+  padding: 10px;
+=======
+=======
+
+#textbox {
+  font: 13px/1 'Open Sans', sans-serif;
+  display: none;
+  border: 1px solid rgba(145,171,188,0.4);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  outline:0;
+  height:100%;
+  width: 80%;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#notesLabel {
+  color: #507b9b;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  display: none;
+>>>>>>> 050bb53f5cdbe0e243cb3fd5b5846fc8ab416d08
+>>>>>>> 2ffe36998f21110cff8e779a96ac3e068ac5290d
+}
